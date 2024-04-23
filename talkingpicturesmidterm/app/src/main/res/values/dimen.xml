@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="preview_image_side">170px</dimen>
+    <dimen name="edit_image_side">500px</dimen>
+    <dimen name="margin">5dp</dimen>
+    <dimen name="list_text_margin">15dp</dimen>
+    <dimen name="description_size">65px</dimen>
+    <dimen name="dialog_image_size">600px</dimen>
+</resources>

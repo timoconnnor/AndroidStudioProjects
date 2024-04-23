@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="time_between_location_updates_ms">10000</integer>
+    <integer name="layout_weigh">4</integer>
+    <integer name="layout_weight_one">1</integer>
+    <integer name="rotation">270</integer>
+</resources>

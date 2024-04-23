@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttontextviewWIDTH">70dp</dimen>
+    <dimen name="buttontextviewHEIGHT">50dp</dimen>
+    <dimen name="buttonSMALLwidth">30dp</dimen>
+    <dimen name="buttonSMALLheight">30dp</dimen>
+</resources>

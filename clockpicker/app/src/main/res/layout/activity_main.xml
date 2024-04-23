@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <Button
+            style="@style/buttontextrow"
+            android:layout_height="@dimen/buttontextviewHEIGHT"
+            android:layout_width="@dimen/buttontextviewWIDTH"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            style="@style/buttontextrow"
+            android:layout_width="@dimen/buttontextviewWIDTH"
+            android:layout_height="@dimen/buttontextviewHEIGHT"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            style="@style/buttontextrow"
+            android:layout_height="@dimen/buttontextviewHEIGHT"
+            android:layout_width="@dimen/buttontextviewWIDTH"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <Button
+            style="@style/buttonred"
+            android:layout_width="@dimen/buttontextviewWIDTH"
+            android:layout_height="@dimen/buttontextviewHEIGHT" />
+
+        <!-- Center the text in the available space -->
+        <TextView
+            style="@style/textlarge"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/buttontextviewHEIGHT"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <Button
+            style="@style/buttonsmallpurple"
+            android:layout_width="@dimen/buttonSMALLwidth"
+            android:layout_height="@dimen/buttonSMALLheight"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textminigreen"
+        android:gravity="center"
+        android:paddingRight="10dp"/>
+    <Button
+        android:layout_width="@dimen/buttonSMALLwidth"
+        android:layout_height="@dimen/buttonSMALLheight"
+        style="@style/buttonsmallgreen"
+        android:paddingRight="10dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textminiblue"
+            android:gravity="center"
+        android:paddingLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="@dimen/buttonSMALLwidth"
+            android:layout_height="@dimen/buttonSMALLheight"
+            style="@style/buttonsmallgreen"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textminiblue"
+            android:gravity="center"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:layout_width="@dimen/buttonSMALLwidth"
+            android:layout_height="@dimen/buttonSMALLheight"
+            style="@style/buttonsmallgreen" />
+    </LinearLayout>
+</LinearLayout>

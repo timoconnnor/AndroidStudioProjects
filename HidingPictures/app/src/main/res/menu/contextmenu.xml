@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/InvisibleNeutral"
+        android:title="Make Invisible" />
+    <item
+        android:id="@+id/GoneNeutral"
+        android:title="Make Gone" />
+</menu>

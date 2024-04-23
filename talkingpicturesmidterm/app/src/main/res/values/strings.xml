@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Talking Picture List</string>
+    <string name="no_description_text">No Description</string>
+    <string name="save_button">Save</string>
+    <string name="dismiss_button">Dismiss</string>
+    <string name="toast_message">Now you can talk</string>
+    <string name="deleted_image">An image has been deleted</string>
+</resources>

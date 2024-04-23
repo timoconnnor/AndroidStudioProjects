@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/opinionlist"
+        android:title="Opinion">
+
+        <menu>
+            <item
+                android:id="@+id/HappyOpinion"
+                android:title="Happy Opinion" />
+            <item
+                android:id="@+id/NeutralOpinion"
+                android:title="Neutral Opinion"/>
+            <item
+                android:id="@+id/SadOpinion"
+                android:title="Sad Opinion"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+    <item
+        android:id="@+id/myButton"
+        android:title="Reset"
+        app:showAsAction="always"/>
+</menu>

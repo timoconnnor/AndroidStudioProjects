@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OneRow">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="ButtonControl">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">33</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonControl.Camera">
+        <item name="android:onClick">myClickListener</item>
+    </style>
+    <style name="OnePicture">
+        <item name="android:layout_height">@dimen/picture_height</item>
+        <item name="android:layout_width">@dimen/picture_width</item>
+        <item name="android:layout_margin">@dimen/picture_margin</item>
+    </style>
+    <style
+        name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_image_margin">10dp</dimen>
+    <dimen name="edit_image_size">100dp</dimen>
+    <dimen name="list_image_margin">4dp</dimen>
+    <dimen name="list_image_size">40dp</dimen>
+    <dimen name="list_timestamp_size">12sp</dimen>
+    <dimen name="list_title_size">24sp</dimen>
+    <dimen name="layout_width">0dp</dimen>
+</resources>

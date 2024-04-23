@@ -1,0 +1,6 @@
+<resources>
+    <array name="am_pm_options">
+        <item>AM</item>
+        <item>PM</item>
+    </array>
+</resources>

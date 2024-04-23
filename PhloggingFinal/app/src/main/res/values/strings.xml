@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Phlogging</string>
+    <string name="no_text">No text</string>
+    <string name="no_title">No title</string>
+    <string name="no_location">No location</string>
+    <string name="camera_button_label">C</string>
+    <string name="camera_photo_name">PhlogPhoto_XXX.jpg</string>
+    <string name="gallery_button_label">G</string>
+    <string name="delete_button_label">Delete</string>
+    <string name="make_phlog_button_label">Phlog!</string>
+    <string name="save_button_label">Save</string>
+</resources>

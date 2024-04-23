@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Still Moving</string>
+    <string name="photo_button">Take Photo</string>
+    <string name="video_button">Take Video</string>
+    <string name="camera_photo_name">Photo.jpeg</string>
+    <string name="camera_video_name">Video.mp4</string>
+</resources>

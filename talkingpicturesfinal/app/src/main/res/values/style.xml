@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Layout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="DialogLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Layout.Horizontal" parent="Layout">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Layout.Vertical" parent="Layout">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MyListView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ListTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:textSize">@dimen/description_size</item>
+    </style>
+
+    <style name="ListImage">
+        <item name="android:layout_height">@dimen/preview_image_side</item>
+        <item name="android:layout_width">@dimen/preview_image_side</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="EditImageView">
+        <item name="android:layout_width">@dimen/edit_image_side</item>
+        <item name="android:layout_height">@dimen/edit_image_side</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="DialogImageView">
+        <item name="android:layout_width">@dimen/dialog_image_size</item>
+        <item name="android:layout_height">@dimen/dialog_image_size</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="MyEditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="MyButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="MyButton.Save" parent="MyButton">
+        <item name="android:onClick">onClick</item>
+        <item name="android:text">@string/save_button</item>
+    </style>
+
+    <style name="MyButton.Dismiss" parent="MyButton">
+        <item name="android:text">@string/dismiss_button</item>
+    </style>
+
+</resources>

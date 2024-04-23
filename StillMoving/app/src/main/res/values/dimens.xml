@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="picture_height">480px</dimen>
+    <dimen name="picture_width">640px</dimen>
+    <dimen name="picture_margin">20px</dimen>
+</resources>

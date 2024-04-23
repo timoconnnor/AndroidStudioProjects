@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MiniApp5</string>
+    <string name="time_units">UNIX seconds</string>
+</resources>

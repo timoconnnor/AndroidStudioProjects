@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Count Me In</string>
+    <string name="execution_count">%d</string>
+</resources>
